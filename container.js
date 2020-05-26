@@ -5,6 +5,11 @@ const container = dependable.container();
 // load modules
 const simpleDependecies = [      // arrays of modules that we need
     ['_', 'lodash'],             //  same as ['lodash', 'lodash']   it become a dependencies
+    ['passport', 'passport'],
+    ['formidable', 'formidable'],
+    ['aws', './helpers/AWSUpload'],
+    ['Club', './models/club'],
+    ['async', 'async']
 
 ];
 // this see simpleDependecies array at each value 
